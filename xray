@@ -6,12 +6,6 @@ yell='\e[1;33m'
 tyblue='\e[1;36m'
 NC='\e[0m'
 clear
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$green                 ⚡ Lunoxx Impostor ⚡ $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$tywhite           Ngentot Lu Wkwkwk $NC"
-read -n 1 -s -r -p "  Press any key to Continue"
-clear
 CEKEXPIRED () {
 today=$(date -d +1day +%Y-%m-%d)
 Exp1=$(curl -sS https://raw.githubusercontent.com/lunoxxdev/d4l4nW3dUs/main/ip | grep $MYIP | awk '{print $3}')
