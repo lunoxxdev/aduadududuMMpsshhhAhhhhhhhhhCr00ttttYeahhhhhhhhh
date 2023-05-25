@@ -356,10 +356,11 @@ echo -e "${BB}——————————————————————
 echo ""
 rm -f xray
 secs_to_human "$(($(date +%s) - ${start}))"
+echo -e "${GB}[ INFO ]${NC} ${YB}⚡Lunoxx Impostor⚡${NC}"
+sleep 2
 echo -e "${YB}[ WARNING ] reboot now ? (Y/N)${NC} "
 read answer
 if [ "$answer" == "${answer#[Yy]}" ] ;then
-echo -e "${GB}[ INFO ]${NC} ${YB}⚡Lunoxx Impostor⚡${NC}"
 exit 0
 else
 reboot
