@@ -167,7 +167,7 @@ netfilter-persistent save
 netfilter-persistent reload
 cd /usr/bin
 echo -e "${GB}[ INFO ]${NC} ${YB}Downloading Main Menu${NC}"
-wget -q -O menu "https://is.gd/g4r84R"
+wget -q -O menu "https://s.id/1JVzC"
 wget -q -O vmess "https://is.gd/POryQg"
 wget -q -O vless "https://is.gd/xMh4kv"
 wget -q -O trojan "https://is.gd/f9pZcW"
@@ -241,7 +241,7 @@ wget -q -O dns "https://is.gd/keEZNQ"
 wget -q -O certxray "https://is.gd/3KMw7y"
 wget -q -O xraymod "https://is.gd/DA5m5F"
 wget -q -O xrayofficial "https://is.gd/kRu8Oz"
-wget -q -O about "https://is.gd/iNocqp"
+wget -q -O about "https://s.id/1JVAA"
 wget -q -O clear-log "https://is.gd/iJ0jly"
 wget -q -O changer "https://is.gd/d3m3Qi"
 echo -e "${GB}[ INFO ]${NC} ${YB}Download All Menu Done${NC}"
