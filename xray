@@ -5,21 +5,6 @@ green='\e[0;32m'
 yell='\e[1;33m'
 tyblue='\e[1;36m'
 NC='\e[0m'
-clear
-CEKEXPIRED () {
-today=$(date -d +1day +%Y-%m-%d)
-Exp1=$(curl -sS https://raw.githubusercontent.com/lunoxxdev/d4l4nW3dUs/main/ip | grep $MYIP | awk '{print $3}')
-if [[ $today < $Exp1 ]]; then
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$tyyellow                     AKTIF MASSE GAZZZZ $NC"
-echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-read -n 1 -s -r -p "  Press any key to Continue"
-else
-echo -e "[ ${green}INFO${NC} ] Tertolak Mentah-Mentah Awkoakowkoaw "
-read -n 1 -s -r -p "  Press any key to Exit"
-rm -f /root/sc
-clear
-exit 0
 fi
 }
 IZIN=$(curl -sS https://raw.githubusercontent.com/lunoxxdev/d4l4nW3dUs/main/ip | awk '{print $4}' | grep $MYIP)
