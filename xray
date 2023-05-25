@@ -23,7 +23,7 @@ NC='\e[0m'
 IZIN=$(curl -sS https://raw.githubusercontent.com/lunoxxdev/d4l4nW3dUs/main/ip | awk '{print $4}' | grep $MYIP)
 if [[ $MYIP = $IZIN ]]; then
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$tyyellow                     AKTIF MASSE GAZZZZ $NC"
+echo -e "$tyyellow                     ⚡️Lunoxx Impostor⚡️ $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 CEKEXPIRED
 else
@@ -301,7 +301,7 @@ clear
 echo ""
 echo ""
 echo -e "${BB}—————————————————————————————————————————————————————————${NC}"
-echo -e "                  ${WB}⚡️ Lunoxx Impostor ⚡️${NC}"
+echo -e "                  ${WB}⚡️Lunoxx Impostor⚡️${NC}"
 echo -e "${BB}—————————————————————————————————————————————————————————${NC}"
 echo -e "  ${WB}»»» Protocol Service «««  |  »»» Network Protocol «««${NC}  "
 echo -e "${BB}—————————————————————————————————————————————————————————${NC}"
