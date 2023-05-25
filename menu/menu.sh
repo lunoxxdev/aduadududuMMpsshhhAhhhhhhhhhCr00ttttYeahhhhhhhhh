@@ -38,7 +38,6 @@ echo -e "${BB}——————————————————————
 echo -e " ${YB}Service Provider${NC} ${WB}: $ISP"
 echo -e " ${YB}Timezone${NC}         ${WB}: $WKT${NC}"
 echo -e " ${YB}City${NC}             ${WB}: $CITY${NC}"
-echo -e " ${YB}Date${NC}             ${WB}: $DATE${NC}"
 echo -e " ${YB}Domain${NC}           ${WB}: $domain${NC}"
 echo -e " ${YB}Quotes Today${NC}     ${WB}: Jangan Pilih Puan di 2024!"
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
