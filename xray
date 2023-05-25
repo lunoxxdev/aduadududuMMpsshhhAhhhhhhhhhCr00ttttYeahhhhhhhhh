@@ -23,7 +23,7 @@ NC='\e[0m'
 IZIN=$(curl -sS https://raw.githubusercontent.com/lunoxxdev/d4l4nW3dUs/main/ip | awk '{print $4}' | grep $MYIP)
 if [[ $MYIP = $IZIN ]]; then
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e "$tyyellow                     ⚡️Lunoxx Impostor⚡️ $NC"
+echo -e "$tyyellow                     ⚡Lunoxx Impostor⚡ $NC"
 echo -e "\e[33m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 CEKEXPIRED
 else
@@ -195,7 +195,7 @@ wget -q -O extend-socks "https://is.gd/WOLshy"
 wget -q -O trialsocks "https://is.gd/Txue8k"
 wget -q -O cek-socks "https://is.gd/9iFu8D"
 sleep 1.5
-echo -e "${GB}[ INFO ]${NC} ${YB}Bingungg Au Su${NC}"
+echo -e "${GB}[ INFO ]${NC} ${YB}Bingungg Au Suu${NC}"
 wget -q -O add-xray "https://is.gd/Z7UF0L"
 wget -q -O del-xray "https://is.gd/gJAaV1"
 wget -q -O extend-xray "https://is.gd/1TFJGd"
@@ -301,7 +301,7 @@ clear
 echo ""
 echo ""
 echo -e "${BB}—————————————————————————————————————————————————————————${NC}"
-echo -e "                  ${WB}⚡️Lunoxx Impostor⚡️${NC}"
+echo -e "                  ${WB}⚡Lunoxx Impostor⚡${NC}"
 echo -e "${BB}—————————————————————————————————————————————————————————${NC}"
 echo -e "  ${WB}»»» Protocol Service «««  |  »»» Network Protocol «««${NC}  "
 echo -e "${BB}—————————————————————————————————————————————————————————${NC}"
@@ -323,6 +323,7 @@ secs_to_human "$(($(date +%s) - ${start}))"
 echo -e "${YB}[ WARNING ] reboot now ? (Y/N)${NC} "
 read answer
 if [ "$answer" == "${answer#[Yy]}" ] ;then
+echo -e "${GB}[ INFO ]${NC} ${YB}⚡Lunoxx Impostor⚡${NC}"
 exit 0
 else
 reboot

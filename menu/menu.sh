@@ -33,7 +33,7 @@ DATE=$(date -R | cut -d " " -f -4)
 MYIP=$(curl -sS ipv4.icanhazip.com)
 clear
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
-echo -e "          ${WB}----- ⚡Lunoxx Impostor⚡️ -----${NC}              "
+echo -e "          ${WB}----- ⚡Lunoxx Impostor⚡ -----${NC}              "
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e " ${YB}Service Provider${NC} ${WB}: $ISP"
 echo -e " ${YB}Timezone${NC}         ${WB}: $WKT${NC}"
