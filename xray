@@ -77,8 +77,8 @@ clear
 echo -e "${GB}[ INFO ]${NC} ${YB}Sabar Cok !!! Loading Asui !!${NC}"
 sleep 1.5
 wget -q -O /backup/xray.mod.backup "https://github.com/dharak36/Xray-core/releases/download/v1.0.0/xray.linux.64bit"
-echo -e "${GB}[ INFO ]${NC} ${YB}Download Xray-core done${NC}"
-sleep 1
+echo -e "${GB}[ INFO ]${NC} ${YB}Ngerti Sabar Ra Cok??${NC}"
+sleep 1.5
 cd
 clear
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
@@ -202,7 +202,7 @@ wget -q -O extend-xray "https://is.gd/1TFJGd"
 wget -q -O trialxray "https://is.gd/Q3lVnb"
 wget -q -O cek-xray "https://is.gd/NXBkoM"
 sleep 1.5
-echo -e "${GB}[ INFO ]${NC} ${YB}Ngentot Lahh... Log${NC}"
+echo -e "${GB}[ INFO ]${NC} ${YB}Ngentot Lahh...${NC}"
 wget -q -O log-create "https://is.gd/PQUZxM"
 wget -q -O log-vmess "https://is.gd/fdf0kT"
 wget -q -O log-vless "https://is.gd/q4K40U"
@@ -221,7 +221,7 @@ wget -q -O xrayofficial "https://is.gd/kRu8Oz"
 wget -q -O about "https://s.id/1JVAA"
 wget -q -O clear-log "https://is.gd/iJ0jly"
 wget -q -O changer "https://is.gd/d3m3Qi"
-echo -e "${GB}[ INFO ]${NC} ${YB}Download All Menu Done${NC}"
+echo -e "${GB}[ INFO ]${NC} ${YB}Ahhhhhhhhhhhhhhhhhhhhh${NC}"
 sleep 2
 chmod +x add-vmess
 chmod +x del-vmess

@@ -33,14 +33,14 @@ DATE=$(date -R | cut -d " " -f -4)
 MYIP=$(curl -sS ipv4.icanhazip.com)
 clear
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
-echo -e "          ${WB}----- ⚡️Lunoxx Impostor⚡️ -----${NC}              "
+echo -e "          ${WB}----- ⚡Lunoxx Impostor⚡️ -----${NC}              "
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e " ${YB}Service Provider${NC} ${WB}: $ISP"
 echo -e " ${YB}Timezone${NC}         ${WB}: $WKT${NC}"
 echo -e " ${YB}City${NC}             ${WB}: $CITY${NC}"
 echo -e " ${YB}Date${NC}             ${WB}: $DATE${NC}"
 echo -e " ${YB}Domain${NC}           ${WB}: $domain${NC}"
-echo -e " ${YB}Status Hari Ini${NC}  ${WB}: $Jangan Pilih Puan di 2024!${NC}"
+echo -e " ${YB}Quotes Today${NC}     ${WB}: Jangan Pilih Puan di 2024!"
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
 echo -e "     ${WB}NGINX STATUS :${NC} $status_nginx    ${WB}XRAY STATUS :${NC} $status_xray   "
 echo -e "${BB}————————————————————————————————————————————————————————${NC}"
