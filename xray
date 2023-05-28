@@ -12,8 +12,19 @@ WB='\e[37;1m'
 secs_to_human() {
 echo -e "${WB}Installation time : $(( ${1} / 3600 )) hours $(( (${1} / 60) % 60 )) minute's $(( ${1} % 60 )) seconds${NC}"
 }
+
+MYIP=$(wget -qO- ipinfo.io/ip);
+echo "Checking VPS"
+IZIN=$( curl https://raw.githubusercontent.com/lunoxxdev/d4l4nW3dUs/main/Nganu | grep $MYIP )
+if [ $MYIP = $IZIN ]; then
+echo -e "${NC}${GB}Permission Accepted...${NC}"
+else
+echo -e "${NC}${RB}Permission Denied!${NC}";
+echo -e "${NC}${GB}Tertolak Mentah-Mentah Akawoakowakow"
+exit 0
 fi
 clear
+
 apt update -y
 apt upgrade -y
 apt dist-upgrade -y
@@ -300,7 +311,7 @@ echo -e "${BB}——————————————————————
 echo ""
 rm -f xray
 secs_to_human "$(($(date +%s) - ${start}))"
-echo -e "${YB}[ WARNING ] reboot now ? (Y/N)${NC} "
+echo -e "${GB}[ WARNING ] reboot now ? (Y/N)${NC} "
 read answer
 if [ "$answer" == "${answer#[Yy]}" ] ;then
 exit 0
