@@ -21,7 +21,7 @@ if [ $MYIP = $IZIN ]; then
 echo -e "${NC}${GB}Permission Accepted...${NC}"
 else
 echo -e "${NC}${RB}Permission Denied!${NC}";
-echo -e "${NC}${RB}Fuck You!!"
+echo -e "${NC}${GB}Tertolak Mentah-Mentah Awkowkowko!!"
 exit 0
 fi
 clear
